@@ -1,0 +1,24 @@
+<launch>
+    <arg name="use_sim_time" default="true"/>
+    <!--打开D3435i相机  -->  
+    <include file="$(find realsense2_camera)/launch/rs_camera.launch">
+        <arg name="align_depth"  value="true"/>
+    </include>
+
+    <!--yolo启动 -->
+    <node name="ros_yolo" pkg="rs_yolo" type="rstest_copy.py"/>
+
+
+    <!--硬件启动-->
+    <include file="$(find real_arm_hand)/launch/real_bringup.launch"/>
+
+    <!--抓取节点启动-->
+    <node name="plan_grasps_step" pkg="real_arm_hand" type="plan_grasps_step"/>
+    
+    <!--
+    
+    <include file="$(find hand_config)/launch/demo.launch"/>
+
+    -->
+
+</launch>

@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="fsm" type="px4_pos_estimator" name="px4_pos_estimator" output="screen">
+	</node>
+</launch>
+

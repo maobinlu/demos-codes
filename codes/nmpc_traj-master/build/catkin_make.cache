@@ -1,0 +1,2 @@
+airsim_ros:fast_fly_waypoint:quadrotor_msgs:robo_msgs
+-DCATKIN_DEVEL_PREFIX=/home/bitzoo/nmpc_traj/devel -DCMAKE_INSTALL_PREFIX=/home/bitzoo/nmpc_traj/install -G Unix Makefiles

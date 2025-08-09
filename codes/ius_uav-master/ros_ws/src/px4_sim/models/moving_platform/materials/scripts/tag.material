@@ -1,0 +1,15 @@
+material Tag/tag
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture tag.jpg
+        filtering anistropic
+        max_anisotropy 16
+      }
+    }
+  }
+}

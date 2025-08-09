@@ -1,0 +1,8 @@
+<launch>
+  <!-- MAVROS -->
+  <include file="$(find mavros)/launch/px4.launch">
+      <arg name="gcs_url" value="udp://:14540@192.168.1.31:14550"/>
+      <arg name="fcu_url" value="/dev/ttyACM0:57600"/>
+  </include>
+
+</launch>

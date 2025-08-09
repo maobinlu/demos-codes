@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="ius_perception" pkg="ius_perception" type="ius_perception_node" output="screen">
+    <rosparam file="$(find ius_planner)/config/map_fence.yaml" command="load" />
+  </node>
+</launch>

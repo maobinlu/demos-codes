@@ -1,0 +1,8 @@
+prefix=/home/bitzoo/nmpc_traj/install
+
+Name: robo_msgs
+Description: Description of robo_msgs
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

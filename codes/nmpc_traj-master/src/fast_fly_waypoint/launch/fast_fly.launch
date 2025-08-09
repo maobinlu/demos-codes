@@ -1,0 +1,15 @@
+<launch>
+    <arg name="drone_id" default="0"/>
+    <node pkg="fast_fly_waypoint" name="pendulum" type="pendulum.py" output="screen">
+    </node>
+    
+    <node pkg="fast_fly_waypoint" name="track" type="track_robo.py" output="screen">
+        <remap from="~odom" to="/airsim_node/drone_1/pose_gt" />   
+        <remap from="~track_traj" to="/plan/track_traj" />
+    </node>
+    
+    <node pkg="fast_fly_waypoint" name="plan" type="plan.py" output="screen">
+        <remap from="~odom" to="/airsim_node/drone_1/pose_gt" />   
+    </node>
+
+</launch>

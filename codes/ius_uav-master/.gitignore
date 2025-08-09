@@ -1,0 +1,14 @@
+.vscode
+PX4-Autopilot
+PX4-Autopilot.zip
+ros_ws/build
+ros_ws/build_isolated
+ros_ws/devel
+ros_ws/devel_isolated
+ros_ws/logs
+ius_uav.tar
+ius_uav.zip
+ego_planner_ws
+QGroundControl.AppImage
+apriltag/build
+bag

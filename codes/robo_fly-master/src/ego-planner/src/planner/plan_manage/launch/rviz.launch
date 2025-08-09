@@ -1,0 +1,4 @@
+<launch>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ego_planner)/launch/default.rviz" required="true" />
+  <node name="static_transform_publisher" pkg="tf2_ros" type="static_transform_publisher" args="0 0 0 0 0 0 map world" />
+</launch>

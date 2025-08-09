@@ -1,0 +1,10 @@
+<launch>
+       <!--打开D3435i相机-->
+  <include file="$(find realsense2_camera)/launch/rs_camera.launch">
+      <arg name="align_depth"  value="true"/>
+  </include>
+  
+    <!--yolo启动-->
+    <node name="ros_yolo" pkg="rs_yolo" type="rstest_copy.py"/>
+
+</launch>

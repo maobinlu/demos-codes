@@ -1,0 +1,80 @@
+# Mission A -- pillar pos/vel/acc
+start_pos_A : [0.0, 0.0, 0.1]
+start_vel_A : [0.0, 0.0, 0.0]
+start_acc_A : [0.0, 0.0, 0.0]
+
+mid_pos1_A : [3.0, -1.0, 1.0]
+mid_vel1_A : [1.0, 0.0, 0.0]
+mid_acc1_A : [0.0, 0.0, 0.0]
+
+mid_pos2_A : [4.0, 1.0, 1.0]
+mid_vel2_A : [1.0, 0.0, 0.0]
+mid_acc2_A : [0.0, 0.0, 0.0]
+
+mid_pos3_A : [5.0, -1.0, 1.0]
+mid_vel3_A : [1.0, 0.0, 0.0]
+mid_acc3_A : [0.0, 0.0, 0.0]
+
+mid_pos4_A : [6.0, 1.0, 1.0]
+mid_vel4_A : [1.0, 0.0, 0.0]
+mid_acc4_A : [0.0, 0.0, 0.0]
+
+end_pos_A : [8.0, 0.0, 1.0]
+end_vel_A : [0.0, -1.0, 0.0]
+end_acc_A : [0.0, 0.0, 0.0]
+
+# Mission B -- tunnel pos/vel/acc 
+
+start_pos_B : [7.4, -1.8, 1.5]
+start_vel_B : [0.0, -1.0, 0.0]
+start_acc_B : [0.0, 0.0, 0.0]
+
+mid_pos1_B : [7.4, -4.0, 1.5]
+mid_vel1_B : [0.0, -1.0, 0.0]
+mid_acc1_B : [0.0, 0.0, 0.0]
+
+end_pos_B : [8.5, -5.0, 1.0]
+end_vel_B : [0.0, -1.0, 0.0]
+end_acc_B : [0.0, 0.0, 0.0]
+
+# Mission C -- maze pos/vel/acc
+
+start_pos_C : [9.0, -5.8, 1.0]
+start_vel_C : [0.0, -1.0, 0.0]
+start_acc_C : [0.0, 0.0, 0.0]
+
+mid_pos1_C : [5.75, -8.2, 1.0]
+mid_vel1_C : [0.0, -1.0, 0.0]
+mid_acc1_C : [0.0, 0.0, 0.0]
+
+mid_pos2_C : [8.9, -11.0, 1.0]
+mid_vel2_C : [0.0, -1.0, 0.0]
+mid_acc2_C : [0.0, 0.0, 0.0]
+
+end_pos_C : [11.0, -18.0, 1.0]
+end_vel_C : [0.0, -1.0, 0.0]
+end_acc_C : [0.0, 0.0, 0.0]
+
+# Mission D -- loop pos/vel/acc
+
+start_pos_D : [17.0, -20.0, 1.0]
+start_vel_D : [-1.0, 0.0, 0.0]
+start_acc_D : [0.0, 0.0, 0.0]
+
+end_pos_D : [13.5, -20.0, 1.5]
+end_vel_D : [-1.0, 0.0, 0.0]
+end_acc_D : [0.0, 0.0, 0.0]
+
+# Mission E -- pillar pos/vel/acc
+
+start_pos_E : [10.0, -20.0, 1.0]
+start_vel_E : [-1.0, 0.0, 0.0]
+start_acc_E : [0.0, 0.0, 0.0]
+
+end_pos_E : [2.0, -20.0, 1.0]
+end_vel_E : [0.0, 0.0, 0.0]
+end_acc_E : [0.0, 0.0, 0.0]
+
+ 
+
+

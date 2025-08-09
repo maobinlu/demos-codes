@@ -1,0 +1,8 @@
+<launch>
+    <arg name="drone_id" default="0"/>
+
+    <node pkg="fast_fly_waypoint" name="plan" type="plan.py" output="screen">
+        <remap from="~odom" to="/airsim_node/drone_1/pose_gt" />   
+    </node>
+
+</launch>

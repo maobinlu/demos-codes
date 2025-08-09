@@ -1,0 +1,9 @@
+<launch>
+    <!-- demo启动 -->
+    <include file="$(find hand_config)/launch/demo.launch"/>
+
+    <!-- 抓取节点启动 -->
+    <node name="plan_grasps_step" pkg="real_arm_hand" type="plan_grasps_step"/>
+
+
+</launch>
