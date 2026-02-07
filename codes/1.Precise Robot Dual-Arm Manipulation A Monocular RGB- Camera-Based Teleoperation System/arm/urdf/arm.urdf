@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="1">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.00489 -0.00769 0.02194"
+        rpy="0 0 0" />
+      <mass
+        value="1.81223" />
+      <inertia
+        ixx="0.01365"
+        ixy="-1.999E-09"
+        ixz="4.6027E-10"
+        iyy="0.01399"
+        iyz="-1.1638E-05"
+        izz="0.02383" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/aloha/HCI/src/hcipose_lite/arm/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/aloha/HCI/src/hcipose_lite/arm/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="link1">
+    <inertial>
+      <origin
+        xyz="0.0094883 -0.010199 0.0069062"
+        rpy="0 0 0" />
+      <mass
+        value="0.10626" />
+      <inertia
+        ixx="7.5784E-05"
+        ixy="1.7647E-05"
+        ixz="-2.0511E-05"
+        iyy="7.4079E-05"
+        iyz="1.9786E-05"
+        izz="8.7322E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/aloha/HCI/src/hcipose_lite/arm/meshes/link1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/aloha/HCI/src/hcipose_lite/arm/meshes/link1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint1"
+    type="revolute">
+    <origin
+      xyz="0.036895 -0.0080138 0.09598"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="link1" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-3.1416"
+      upper="3.1416"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="link2">
+    <inertial>
+      <origin
+        xyz="0.090941 0.015275 0.005885"
+        rpy="0 0 0" />
+      <mass
+        value="0.97675" />
+      <inertia
+        ixx="0.00075"
+        ixy="-0.00067"
+        ixz="2.8459E-05"
+        iyy="0.00313"
+        iyz="4.2775E-05"
+        izz="0.00337" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/aloha/HCI/src/hcipose_lite/arm/meshes/link2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/aloha/HCI/src/hcipose_lite/arm/meshes/link2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint2"
+    type="revolute">
+    <origin
+      xyz="0.03 0 0.032"
+      rpy="1.5708 0 3.1416" />
+    <parent
+      link="link1" />
+    <child
+      link="link2" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="3.1416"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="link3">
+    <inertial>
+      <origin
+        xyz="-2.6431E-05 0.020091 -0.019056"
+        rpy="0 0 0" />
+      <mass
+        value="0.085074" />
+      <inertia
+        ixx="4.4693E-05"
+        ixy="3.5152E-08"
+        ixz="2.0362E-08"
+        iyy="2.816E-05"
+        iyz="-1.0963E-05"
+        izz="4.1603E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/aloha/HCI/src/hcipose_lite/arm/meshes/link3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/aloha/HCI/src/hcipose_lite/arm/meshes/link3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint3"
+    type="revolute">
+    <origin
+      xyz="0.17657 0.056569 0"
+      rpy="0 0 1.5708" />
+    <parent
+      link="link2" />
+    <child
+      link="link3" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="4.1888"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="link4">
+    <inertial>
+      <origin
+        xyz="0.00029234 0.0092979 0.044414"
+        rpy="0 0 0" />
+      <mass
+        value="0.44827" />
+      <inertia
+        ixx="0.00020054"
+        ixy="4.3052E-07"
+        ixz="1.2701E-06"
+        iyy="0.00019099"
+        iyz="-4.0474E-05"
+        izz="7.9991E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/aloha/HCI/src/hcipose_lite/arm/meshes/link4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/aloha/HCI/src/hcipose_lite/arm/meshes/link4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint4"
+    type="revolute">
+    <origin
+      xyz="0 0.042 0"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="link3" />
+    <child
+      link="link4" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.1416"
+      upper="3.1416"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="link5">
+    <inertial>
+      <origin
+        xyz="-9.2448E-05 0.048973 0.0039836"
+        rpy="0 0 0" />
+      <mass
+        value="0.61773" />
+      <inertia
+        ixx="0.00105"
+        ixy="-2.5939E-07"
+        ixz="1.5888E-07"
+        iyy="0.00021"
+        iyz="-3.461E-05"
+        izz="0.00106" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/aloha/HCI/src/hcipose_lite/arm/meshes/link5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/aloha/HCI/src/hcipose_lite/arm/meshes/link5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint5"
+    type="revolute">
+    <origin
+      xyz="0 0 0.0995"
+      rpy="1.5708 0 0" />
+    <parent
+      link="link4" />
+    <child
+      link="link5" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.5708"
+      upper="1.5708"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="link6">
+    <inertial>
+      <origin
+        xyz="-1.1172E-05 -1.8243E-05 0.011087"
+        rpy="0 0 0" />
+      <mass
+        value="0.00772" />
+      <inertia
+        ixx="2.6057E-07"
+        ixy="9.0682E-11"
+        ixz="-2.105E-10"
+        iyy="2.6066E-07"
+        iyz="-3.4372E-10"
+        izz="4.8709E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/aloha/HCI/src/hcipose_lite/arm/meshes/link6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/aloha/HCI/src/hcipose_lite/arm/meshes/link6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint6"
+    type="revolute">
+    <origin
+      xyz="0 0.1205 0"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="link5" />
+    <child
+      link="link6" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.1416"
+      upper="3.1416"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="moduan">
+    <inertial>
+      <origin
+        xyz="-3.791E-09 -3.778E-08 -0.076504"
+        rpy="0 0 0" />
+      <mass
+        value="0.2211" />
+      <inertia
+        ixx="9.2119E-05"
+        ixy="5.3942E-09"
+        ixz="-1.9202E-11"
+        iyy="7.2166E-05"
+        iyz="-2.2102E-11"
+        izz="6.0885E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/aloha/HCI/src/hcipose_lite/arm/meshes/moduan.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.56471 0.56471 0.56471 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/aloha/HCI/src/hcipose_lite/arm/meshes/moduan.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint7"
+    type="fixed">
+    <origin
+      xyz="0 0 0.15318"
+      rpy="0 0 0" />
+    <parent
+      link="link6" />
+    <child
+      link="moduan" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>

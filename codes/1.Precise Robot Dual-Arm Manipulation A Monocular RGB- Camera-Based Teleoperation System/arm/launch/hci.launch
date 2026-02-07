@@ -1,0 +1,4 @@
+<launch>
+    <!-- <node pkg="hcipose_lite" type="arm_control.py" name="arm_node" output="screen" launch-prefix="/home/aloha/anaconda3/envs/hci/bin/python"/> -->
+    <node pkg="hcipose_lite" type="hci_anchor_k_pick.py" name="hci" launch-prefix="/home/aloha/anaconda3/envs/hci/bin/python"/>
+</launch>

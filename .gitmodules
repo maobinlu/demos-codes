@@ -1,0 +1,6 @@
+[submodule "codes/CDC_Competition"]
+	path = codes/CDC_Competition
+	url = https://github.com/DareScanMyCode/CDC_Competition.git
+[submodule "codes/1"]
+	path = codes/1
+	url = https://github.com/DareScanMyCode/ws_comp29.git
