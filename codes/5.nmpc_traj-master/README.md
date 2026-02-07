@@ -1,1 +1,2 @@
+决策：针对未知环境探索复杂度高等难题，提出了多重知识表达的分层探索方法，实现了非完全信息下复杂动态系统自主决策
 roslaunch fast_fly_waypoint fast_fly.launch
