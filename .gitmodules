@@ -4,3 +4,9 @@
 [submodule "codes/1"]
 	path = codes/1
 	url = https://github.com/DareScanMyCode/ws_comp29.git
+[submodule "codes/7.IROS 2024 Cooperative Aerial Robots Inspection Challenge Competition"]
+	path = codes/7.IROS 2024 Cooperative Aerial Robots Inspection Challenge Competition
+	url = https://github.com/DareScanMyCode/CDC_Competition.git
+[submodule "codes/8.Research Challenge on Swarm-Based Micro UAV Search in Denied Environments"]
+	path = codes/8.Research Challenge on Swarm-Based Micro UAV Search in Denied Environments
+	url = https://github.com/DareScanMyCode/ws_comp29.git
