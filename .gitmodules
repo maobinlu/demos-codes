@@ -10,3 +10,30 @@
 [submodule "codes/8.Research Challenge on Swarm-Based Micro UAV Search in Denied Environments"]
 	path = codes/8.Research Challenge on Swarm-Based Micro UAV Search in Denied Environments
 	url = https://github.com/DareScanMyCode/ws_comp29.git
+[submodule "codes/9.SRGS"]
+	path = codes/9.SRGS
+	url = git@github.com:JGuan-lab/SRGS.git
+[submodule "codes/10.SFINN"]
+	path = codes/10.SFINN
+	url = git@github.com:JGuan-lab/SFINN.git
+[submodule "codes/11.DSSC"]
+	path = codes/11.DSSC
+	url = git@github.com:JGuan-lab/DSSC.git
+[submodule "codes/12.scINRB"]
+	path = codes/12.scINRB
+	url = git@github.com:JGuan-lab/scINRB.git
+[submodule "codes/13.scTsI"]
+	path = codes/13.scTsI
+	url = git@github.com:JGuan-lab/scTsI.git
+[submodule "codes/14.MISF"]
+	path = codes/14.MISF
+	url = git@github.com:JGuan-lab/MISF.git
+[submodule "codes/15.MDPPlanner"]
+	path = codes/15.MDPPlanner
+	url = git@github.com:trigger1996/MDPPlanner.git
+[submodule "codes/16.DroneIndoorROS2"]
+	path = codes/16.DroneIndoorROS2
+	url = git@github.com:trigger1996/DroneIndoorROS2.git
+[submodule "codes/17.Enforcement_IWA"]
+	path = codes/17.Enforcement_IWA
+	url = git@github.com:trigger1996/Enforcement_IWA.git
