@@ -1,0 +1,6 @@
+This video presents a wheel-legged robot with a novel mechanical structure, designed to improve its locomotion performance and terrain adaptability, featuring: 
+(1) Balancing and Disturbance Rejection;
+(2) Trajectory Tracking;
+(3) Terrain Adaptation: 
+(4) Lateral Obstacle Avoidance; 
+(5) Autonomous Recovery from Tip-Over.
